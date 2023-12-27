@@ -6,7 +6,7 @@ net = cv2.dnn.readNet("yolov4-custom_4000.weights", "yolov4-custom.cfg")
 
 # Load classes from predefined file
 classes = []
-with open("/home/alisha/Downloads/Data/ESS/ChairDetection/predefined_classes.txt", "r") as f:
+with open("/home/Abdullah/Downloads/Data/ESS/ChairDetection/predefined_classes.txt", "r") as f:
     classes = [line.strip() for line in f.readlines()]
 
 # Get YOLO network layer names and output layer names
